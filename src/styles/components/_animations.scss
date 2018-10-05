@@ -1,0 +1,76 @@
+@keyframes slideTailsWrapperToTheLeft {
+    0% {
+        z-index:3;
+        transform: translateX(0);
+    }
+    100% {
+        z-index:1;
+        transform: translateX(-50vw);
+    }
+}
+
+@keyframes slideTailsWrapperToTheRight {
+    0% {
+        z-index:3;
+        transform: translateX(0);
+    }
+    100% {
+        z-index:1;
+        transform: translateX(50vw);
+    }
+}
+
+@keyframes slideToTheBottom {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(calc(100vh - (100vh / 3)));
+    }
+}
+
+@keyframes slideToTheTop {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-66.6666vh);
+    }
+}
+
+@keyframes blackLast {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-33.3333vh);
+    }
+}
+
+@keyframes blueLast {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(33.3333vh);
+    }
+}
+
+@keyframes redLast {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(25vw);
+    }
+}
+
+
+@keyframes greenLast {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-25vw);
+    }
+}

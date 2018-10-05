@@ -1,0 +1,118 @@
+.tail {
+    width:25vw
+}
+
+.tail--green {
+    background:$a;
+}
+
+.tail--red {
+    background:$b;
+}
+
+.tail--blue {
+    background:$c;
+}
+
+.tail--black {
+    background:$d;
+}
+
+.tails-container {
+    width: 50vw;
+    height: 100vh;
+    position:absolute;
+    display:flex;
+    flex-wrap:wrap;
+    overflow:hidden;
+}
+
+.tails-container--left {
+    left:0;
+}
+
+.tails-container--right {
+    left:50vw;
+}
+
+.tails-wrapper {
+    width: 50vw;
+    height: 100vh;
+    background: white;
+    position:absolute;
+}
+
+.tails-wrapper--left {
+    left:0;
+    animation: 1s ease-out 0s 1 slideTailsWrapperToTheLeft;
+    animation-fill-mode:forwards;
+}
+
+.tails-wrapper--right {
+    left:50vw;
+    animation: 1s ease-out 0s 1 slideTailsWrapperToTheRight;
+    animation-fill-mode:forwards;
+}
+
+
+.tails-layer {
+    display:flex;
+    flex-wrap:wrap;
+    overflow:hidden;
+    position:absolute;
+    width:50vw;
+    height:calc(100vh - (100vh / 3));
+}
+
+.tails-layer--bottom {
+    left:0;
+    top:-66.6666vh;
+    animation: 1s ease-out 1s 1 slideToTheBottom;
+    animation-fill-mode:forwards;
+}
+
+.tails-layer--top {
+    left:50vw;
+    top:100vh;
+    animation: 1s ease-out 1s 1 slideToTheTop;
+    animation-fill-mode:forwards;
+}
+
+.tail--sticky {
+    z-index:2;
+}
+
+.tail--router {
+    height:calc(100vh / 3);
+    z-index:4;
+    position:absolute;
+
+}
+
+.tail--red.tail--router {
+    left:-25vw;
+    top:0;
+    animation: 1s ease-out 2s 1 redLast;
+    animation-fill-mode:forwards;
+}
+
+.tail--blue.tail--router {
+    left:50vw;
+    top:-33.3333vh;
+    animation: 1s ease-out 2s 1 blueLast;
+    animation-fill-mode:forwards;
+}
+
+.tail--black.tail--router {
+    left:25vw;
+    top:100vh;
+    animation: 1s ease-out 2s 1 blackLast;
+    animation-fill-mode:forwards;
+}
+
+.tail--green.tail--router {
+    left:100vw;
+    top:calc(100vh - (100vh / 3));
+    animation: 1s ease-out 2s 1 greenLast;
+    animation-fill-mode:forwards;
+}
