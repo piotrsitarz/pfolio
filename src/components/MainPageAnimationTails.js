@@ -1,40 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import MainPageAnimationTailsLeft from '../components/MainPageAnimationTailsLeft';
+import MainPageAnimationTailsRight from '../components/MainPageAnimationTailsRight';
+import MainPageAnimationTailsWrapper from '../components/MainPageAnimationTailsWrapper';
+import MainPageAnimationTailsTop from '../components/MainPageAnimationTailsTop';
+import MainPageAnimationTailsBottom from '../components/MainPageAnimationTailsBottom';
 
 const MainPageAnimationTails = () => (
   <div>
-    <div className="tails-container tails-containerv--left">
-        <div className="tail tail--blue"></div>
-        <div className="tail tail--blue"></div>
-        <div className="tail tail--blue"></div>
-        <div className="tail tail--blue tail--sticky"></div>
-        <div className="tail tail--blue"></div>
-        <div className="tail tail--blue"></div>
-    </div>
-    <div className="tails-container tails-container--right">
-        <div className="tail tail--black"></div>
-        <div className="tail tail--black"></div>
-        <div className="tail tail--black tail--sticky"></div>
-        <div className="tail tail--black"></div>
-        <div className="tail tail--black"></div>
-        <div className="tail tail--black"></div>
-    </div>
-    <div className="tails-wrapper tails-wrapper--left">
-    </div>
-    <div className="tails-wrapper tails-wrapper--right">
-    </div>
-    <div className="tails-layer tails-layer--bottom">
-        <div className="tail tail--green"></div>
-        <div className="tail tail--green"></div>
-        <div className="tail tail--green"></div>
-        <div className="tail tail--green"></div>
-    </div>
-    <div className="tails-layer tails-layer--top">
-        <div className="tail tail--red"></div>
-        <div className="tail tail--red"></div>
-        <div className="tail tail--red"></div>
-        <div className="tail tail--red "></div>
-    </div>
+    <MainPageAnimationTailsLeft  />
+    <MainPageAnimationTailsRight />
+    <MainPageAnimationTailsWrapper />
+    <MainPageAnimationTailsTop />
+    <MainPageAnimationTailsBottom />
   </div>
 );
 

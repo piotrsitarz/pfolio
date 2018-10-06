@@ -1,26 +1,26 @@
 @keyframes slideTailsWrapperToTheLeft {
     0% {
-        z-index:3;
         transform: translateX(0);
+        z-index: 3;
     }
     100% {
-        z-index:1;
         transform: translateX(-50vw);
+        z-index: 1;
     }
 }
 
 @keyframes slideTailsWrapperToTheRight {
     0% {
-        z-index:3;
         transform: translateX(0);
+        z-index: 3;
     }
     100% {
-        z-index:1;
         transform: translateX(50vw);
+        z-index: 1;
     }
 }
 
-@keyframes slideToTheBottom {
+@keyframes slideTailsLayerToTheBottom {
     0% {
         transform: translateY(0);
     }
@@ -29,7 +29,7 @@
     }
 }
 
-@keyframes slideToTheTop {
+@keyframes slideTailsLayerToTheTop {
     0% {
         transform: translateY(0);
     }
@@ -38,25 +38,7 @@
     }
 }
 
-@keyframes blackLast {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(-33.3333vh);
-    }
-}
-
-@keyframes blueLast {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(33.3333vh);
-    }
-}
-
-@keyframes redLast {
+@keyframes slideTailSteelBlueRouter {
     0% {
         transform: translateX(0);
     }
@@ -65,12 +47,56 @@
     }
 }
 
+@keyframes slideTailBoneRouter {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(33.3333vh);
+    }
+}
 
-@keyframes greenLast {
+@keyframes slideTailCoalRouter {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-33.3333vh);
+    }
+}
+
+@keyframes slideTailSunshineRouter {
     0% {
         transform: translateX(0);
     }
     100% {
         transform: translateX(-25vw);
+    }
+}
+
+@keyframes hideMiddleLine {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes slideMiddleLineToTheBottom {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(50vh);
+    }
+}
+
+@keyframes slideMiddleLineToTheTop {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-50vh);
     }
 }

@@ -1,13 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import AnimationTails from '../components/MainPageAnimationTails';
-import RouterTails from '../components/MainPageRouterTails';
+import AnimationRouterTails from '../components/MainPageAnimationRouterTails';
+import AnimationMiddleLine from '../components/MainPageAnimationMiddleLine';
 
 
 const MainPage = () => (
-  <div className="page-container">
+  <div className='page-container'>
+      <AnimationMiddleLine />
       <AnimationTails />
-      <RouterTails />
+      <AnimationRouterTails />
   </div>
 );
 
