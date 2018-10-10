@@ -10,7 +10,7 @@ import TailContact from './MainPageTailContact';
 const MainPageAnimationRouterTails = (props) => (
   <div>
     <Link
-      className='tail tail--steel-blue tail--router a' to='/projects'
+      className='tail tail--steel-blue tail--router' to='/projects'
       onClick={() => {props.dispatch(changeTailsRoutingStore())}}>
       <TailProjects />
     </Link>
