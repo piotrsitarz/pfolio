@@ -1,9 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import AnimationTails from '../components/MainPageAnimationTails';
-import AnimationRouterTails from '../components/MainPageAnimationRouterTails';
-import AnimationMiddleLine from '../components/MainPageAnimationMiddleLine';
-import TailsAfterAnimation from '../components/TailsAfterAnimation';
+import AnimationTails from './MainPageAnimationTails';
+import AnimationRouterTails from './MainPageAnimationRouterTails';
+import AnimationMiddleLine from './MainPageAnimationMiddleLine';
+import TailsAfterAnimation from './MainPageTailsAfterAnimation';
 
 const MainPage = (props) => (
   <div className='page-container'>

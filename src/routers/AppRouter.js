@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import AboutPage from '../components/AboutPage';
 import ContactPage from '../components/ContactPage';
-import MainPage from '../components/MainPage';
+import MainPage from '../components/mainPage/MainPage';
 import NotFoundPage from '../components/NotFoundPage';
 import ProjectsPage from '../components/ProjectsPage';
 import SkillsPage from '../components/SkillsPage';

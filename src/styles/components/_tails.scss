@@ -1,107 +1,163 @@
 .tail {
-    width: 25vw;
+  align-items: center;
+  display: flex;
+  height: 33.33vh;
+  justify-content: center;
+  width: 25vw;
 }
 
 .tail--coal {
-    background: $coal;
+  background: $coal;
 }
 
 .tail--bone {
-    background: $bone;
+  background: $bone;
 }
 
 .tail--sunshine {
-    background: $sunshine;
+  background: $sunshine;
 }
 
 .tail--steel-blue {
-    background: $steel-blue;
+  background: $steel-blue;
 }
 
 .tail--sticky {
-    z-index: 2;
+  z-index: 2;
+}
+
+.tail-wrapper {
+  @include center;
+}
+
+.tail-wrapper__svg {
+  width: 90%;
+  stroke-width: 2;
+}
+
+.tail__title {
+  font-size: 64px;
+  font-weight: bold;
+  font-family: 'Redressed', cursive;
+}
+
+.tail__title--coal {
+  color: $coal;
+}
+
+.tail__title--bone {
+  color: $bone;
+}
+
+.tail__title--sunshine {
+  color: $sunshine;
+}
+
+.tail__title--steel-blue {
+  color: $steel-blue;
+}
+
+.tail--router p {
+  animation: 0.3s ease-out 4s 1 showElementByOpacity forwards;
+  opacity: 0;
+}
+
+.sticky__paragraph {
+  animation: 0.3s ease-out 4s 1 hideElementByOpacity forwards;
+  font-size: 38px;
+  font-weight: bold;
+  font-family: 'Righteous', cursive;
+  font-weight: bold;
+}
+
+.sticky__paragraph--coal {
+  color: $coal;
+}
+
+.sticky__paragraph--bone {
+  color: $bone;
 }
 
 .tail--router {
-    height: calc(100vh / 3);
-    position: absolute;
-    z-index: 5;
+  height: calc(100vh / 3);
+  position: absolute;
+  z-index: 5;
 }
 
 .tails-container {
-    @include half-vw;
-    height: 100vh;
+  @include half-vw;
+  height: 100vh;
 }
 
 .tails-container--full {
-    @include half-vw;
-    height: 100vh;
-    width: 100vw;
+  @include half-vw;
+  height: 100vh;
+  width: 100vw;
 }
 
 .tails-container--left {
-    left: 0;
+  left: 0;
 }
 
 .tails-container--right {
-    left: 50vw;
+  left: 50vw;
 }
 
 .tails-wrapper {
-    background: white;
-    height: 100vh;
-    position: absolute;
-    width: 50vw;
-    z-index: 3;
+  background: white;
+  height: 100vh;
+  position: absolute;
+  width: 50vw;
+  z-index: 3;
 }
 
 .tails-wrapper--left {
-    animation: 1s ease-out 1s 1 slideTailsWrapperToTheLeft forwards;
-    left: 0;
+  animation: 1s ease-out 1s 1 slideTailsWrapperToTheLeft forwards;
+  left: 0;
 }
 
 .tails-wrapper--right {
-    animation: 1s ease-out 1s 1 slideTailsWrapperToTheRight forwards;
-    left: 50vw;
+  animation: 1s ease-out 1s 1 slideTailsWrapperToTheRight forwards;
+  left: 50vw;
 }
 
 .tails-layer {
-    @include half-vw;
-    height: calc(100vh - (100vh / 3));
+  @include half-vw;
+  height: calc(100vh - (100vh / 3));
 }
 
 .tails-layer--top-left {
-    animation: 1s ease-out 2s 1 slideTailsLayerToTheBottom forwards;
-    left: 0;
-    top: -66.6666vh;
+  animation: 1s ease-out 2s 1 slideTailsLayerToTheBottom forwards;
+  left: 0;
+  top: -66.6666vh;
 }
 
 .tails-layer--bottom-right {
-    animation: 1s ease-out 2s 1 slideTailsLayerToTheTop forwards;
-    left: 50vw;
-    top: 100vh;
+  animation: 1s ease-out 2s 1 slideTailsLayerToTheTop forwards;
+  left: 50vw;
+  top: 100vh;
 }
 
 .tail--steel-blue.tail--router {
-    animation: 1s ease-out 3s 1 slideTailSteelBlueRouter forwards;
-    left: -25vw;
-    top: 0;
+  animation: 1s ease-out 3s 1 slideTailSteelBlueRouter forwards;
+  left: -25vw;
+  top: 0;
 }
 
 .tail--bone.tail--router {
-    animation: 1s ease-out 3s 1 slideTailBoneRouter forwards;
-    left: 50vw;
-    top: -33.3333vh;
+  animation: 1s ease-out 3s 1 slideTailBoneRouter forwards;
+  left: 50vw;
+  top: -33.3333vh;
 }
 
 .tail--coal.tail--router {
-    animation: 1s ease-out 3s 1 slideTailCoalRouter forwards;
-    left: 25vw;
-    top: 100vh;
+  animation: 1s ease-out 3s 1 slideTailCoalRouter forwards;
+  left: 25vw;
+  top: 100vh;
 }
 
 .tail--sunshine.tail--router {
-    animation: 1s ease-out 3s 1 slideTailSunshineRouter forwards;
-    left: 100vw;
-    top: calc(100vh - (100vh / 3));
+  animation: 1s ease-out 3s 1 slideTailSunshineRouter forwards;
+  left: 100vw;
+  top: calc(100vh - (100vh / 3));
 }

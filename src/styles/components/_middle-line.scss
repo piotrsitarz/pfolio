@@ -1,18 +1,18 @@
 .middle-line {
-    position: absolute;
-    height: 50vh;
-    left: 50vw;
-    width: 1px;
-    background: black;
-    z-index: 4;
+  background: black;
+  height: 50vh;
+  left: 50vw;
+  position: absolute;
+  width: 1px;
+  z-index: 4;
 }
 
 .middle-line--top {
-    top: -50vh;
-    animation: 1s ease-out 0s 1 slideMiddleLineToTheBottom forwards, 0s ease-out 1s 1 hideMiddleLine forwards;
+  animation: 1s ease-out 0s 1 slideMiddleLineToTheBottom forwards, 0s ease-out 1s 1 hideElementByOpacity forwards;
+  top: -50vh;
 }
 
 .middle-line--bottom {
-    top: 100vh;
-    animation: 1s ease-out 0s 1 slideMiddleLineToTheTop forwards, 0s ease-out 1s 1 hideMiddleLine forwards;
+  animation: 1s ease-out 0s 1 slideMiddleLineToTheTop forwards, 0s ease-out 1s 1 hideElementByOpacity forwards;
+  top: 100vh;
 }

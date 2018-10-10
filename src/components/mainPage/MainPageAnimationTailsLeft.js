@@ -5,7 +5,9 @@ const MainPageAnimationTailsLeft = () => (
     <div className='tail tail--bone'></div>
     <div className='tail tail--bone'></div>
     <div className='tail tail--bone'></div>
-    <div className='tail tail--bone tail--sticky'></div>
+    <div className='tail tail--bone tail--sticky'>
+      <p className='sticky__paragraph sticky__paragraph--coal'>Hello</p>
+    </div>
     <div className='tail tail--bone'></div>
     <div className='tail tail--bone'></div>
   </div>

@@ -1,3 +1,5 @@
+//tails animations
+
 @keyframes slideTailsWrapperToTheLeft {
     0% {
         transform: translateX(0);
@@ -74,12 +76,21 @@
     }
 }
 
-@keyframes hideMiddleLine {
+@keyframes hideElementByOpacity {
     0% {
         opacity: 1;
     }
     100% {
         opacity: 0;
+    }
+}
+
+@keyframes showElementByOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
 
@@ -99,4 +110,96 @@
     100% {
         transform: translateY(-50vh);
     }
+}
+
+//tail projects svg animations
+
+@keyframes draw-scriber {
+  from {
+    stroke-dashoffset:-20;
+  }
+
+  to {
+     stroke-dashoffset:0;
+  }
+}
+
+@keyframes draw-dash {
+  from {
+    stroke-dashoffset:234;
+  }
+
+  to {
+     stroke-dashoffset:0;
+  }
+}
+
+@keyframes draw-ruler-bottom {
+  from {
+    stroke-dashoffset:297;
+  }
+
+  to {
+     stroke-dashoffset:0;
+  }
+}
+
+@keyframes draw-ruler-top {
+  from {
+    stroke-dashoffset:302;
+  }
+
+  to {
+     stroke-dashoffset:0;
+  }
+}
+
+@keyframes draw-ruler-subdivision {
+  from {
+    stroke-dashoffset:21;
+  }
+
+  to {
+     stroke-dashoffset:0;
+  }
+}
+
+@keyframes draw-pencil-contours {
+  from {
+    stroke-dashoffset:685;
+  }
+
+  to {
+     stroke-dashoffset:0;
+  }
+}
+
+@keyframes draw-elastic {
+  from {
+    stroke-dashoffset:185;
+  }
+
+  to {
+     stroke-dashoffset:0;
+  }
+}
+
+@keyframes draw-pencil-middle {
+  from {
+    stroke-dashoffset:225;
+  }
+
+  to {
+     stroke-dashoffset:0;
+  }
+}
+
+@keyframes draw-pencil-connector {
+  from {
+    stroke-dashoffset:52;
+  }
+
+  to {
+     stroke-dashoffset:0;
+  }
 }
