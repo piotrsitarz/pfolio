@@ -2,204 +2,130 @@
 
 @keyframes slideTailsWrapperToTheLeft {
     0% {
-        transform: translateX(0);
-        z-index: 3;
+      transform: translateX(0);
+      z-index: 3;
     }
     100% {
-        transform: translateX(-50vw);
-        z-index: 1;
+      transform: translateX(-50vw);
+      z-index: 1;
     }
 }
 
 @keyframes slideTailsWrapperToTheRight {
     0% {
-        transform: translateX(0);
-        z-index: 3;
+      transform: translateX(0);
+      z-index: 3;
     }
     100% {
-        transform: translateX(50vw);
-        z-index: 1;
+      transform: translateX(50vw);
+      z-index: 1;
     }
 }
 
 @keyframes slideTailsLayerToTheBottom {
     0% {
-        transform: translateY(0);
+      transform: translateY(0);
     }
     100% {
-        transform: translateY(calc(100vh - (100vh / 3)));
+      transform: translateY(calc(100vh - (100vh / 3)));
     }
 }
 
 @keyframes slideTailsLayerToTheTop {
     0% {
-        transform: translateY(0);
+      transform: translateY(0);
     }
     100% {
-        transform: translateY(-66.6666vh);
+      transform: translateY(-66.6666vh);
     }
 }
 
 @keyframes slideTailSteelBlueRouter {
     0% {
-        transform: translateX(0);
+      transform: translateX(0);
     }
     100% {
-        transform: translateX(25vw);
+      transform: translateX(25vw);
     }
 }
 
 @keyframes slideTailBoneRouter {
     0% {
-        transform: translateY(0);
+      transform: translateY(0);
     }
     100% {
-        transform: translateY(33.3333vh);
+      transform: translateY(33.3333vh);
     }
 }
 
 @keyframes slideTailCoalRouter {
     0% {
-        transform: translateY(0);
+      transform: translateY(0);
     }
     100% {
-        transform: translateY(-33.3333vh);
+      transform: translateY(-33.3333vh);
     }
 }
 
 @keyframes slideTailSunshineRouter {
     0% {
-        transform: translateX(0);
+      transform: translateX(0);
     }
     100% {
-        transform: translateX(-25vw);
+      transform: translateX(-25vw);
     }
 }
 
 @keyframes hideElementByOpacity {
     0% {
-        opacity: 1;
+      opacity: 1;
     }
     100% {
-        opacity: 0;
+      opacity: 0;
     }
 }
 
 @keyframes showElementByOpacity {
     0% {
-        opacity: 0;
+      opacity: 0;
     }
     100% {
-        opacity: 1;
+      opacity: 1;
     }
 }
 
 @keyframes slideMiddleLineToTheBottom {
     0% {
-        transform: translateY(0);
+      transform: translateY(0);
     }
     100% {
-        transform: translateY(50vh);
+      transform: translateY(50vh);
     }
 }
 
 @keyframes slideMiddleLineToTheTop {
     0% {
-        transform: translateY(0);
+      transform: translateY(0);
     }
     100% {
-        transform: translateY(-50vh);
+      transform: translateY(-50vh);
     }
 }
 
 //tail projects svg animations
 
-@keyframes draw-scriber {
-  from {
-    stroke-dashoffset:-20;
-  }
-
+@keyframes draw-svg {
   to {
-     stroke-dashoffset:0;
+   stroke-dashoffset:0;
   }
 }
 
-@keyframes draw-dash {
+@keyframes draw-svg-dash {
   from {
-    stroke-dashoffset:234;
+    opacity: 0;
   }
-
   to {
-     stroke-dashoffset:0;
-  }
-}
-
-@keyframes draw-ruler-bottom {
-  from {
-    stroke-dashoffset:297;
-  }
-
-  to {
-     stroke-dashoffset:0;
-  }
-}
-
-@keyframes draw-ruler-top {
-  from {
-    stroke-dashoffset:302;
-  }
-
-  to {
-     stroke-dashoffset:0;
-  }
-}
-
-@keyframes draw-ruler-subdivision {
-  from {
-    stroke-dashoffset:21;
-  }
-
-  to {
-     stroke-dashoffset:0;
-  }
-}
-
-@keyframes draw-pencil-contours {
-  from {
-    stroke-dashoffset:685;
-  }
-
-  to {
-     stroke-dashoffset:0;
-  }
-}
-
-@keyframes draw-elastic {
-  from {
-    stroke-dashoffset:185;
-  }
-
-  to {
-     stroke-dashoffset:0;
-  }
-}
-
-@keyframes draw-pencil-middle {
-  from {
-    stroke-dashoffset:225;
-  }
-
-  to {
-     stroke-dashoffset:0;
-  }
-}
-
-@keyframes draw-pencil-connector {
-  from {
-    stroke-dashoffset:52;
-  }
-
-  to {
-     stroke-dashoffset:0;
+    opacity: 1;
+    stroke-dashoffset: 0;
   }
 }

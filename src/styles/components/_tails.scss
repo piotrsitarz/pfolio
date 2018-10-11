@@ -28,17 +28,44 @@
 
 .tail-wrapper {
   @include center;
+  height: 100%;
+  width: 100%;
 }
 
 .tail-wrapper__svg {
   width: 90%;
-  stroke-width: 2;
+  height: 70%;
+  stroke-width: 4;
+  fill: none;
+  padding-top: 20px;
+}
+
+.tail--steel-blue svg {
+  stroke: $sunshine;
+}
+
+.tail--bone svg {
+  stroke: $coal;
+}
+
+.tail--coal svg {
+  stroke: $bone;
+}
+
+.tail--sunshine svg {
+  stroke: $steel-blue;
+}
+
+.tail-wrapper__title {
+  height: 30%;
+  width: 100%;
 }
 
 .tail__title {
   font-size: 64px;
   font-weight: bold;
   font-family: 'Redressed', cursive;
+  text-align: center;
 }
 
 .tail__title--coal {

@@ -1,55 +1,137 @@
 // svg projects tail
 
-.svg__scriber {
-  animation: 2s 4s draw-scriber forwards;
-  stroke-dashoffset: -20;
-  stroke-dasharray: 20, 20;
+.tail--router .svg__circle {
+  animation: draw-svg 3s 4s ease-out forwards;
+  stroke-dashoffset: 415;
+  stroke-dasharray: 415;
+}
+
+.tail--router .svg__leg-top {
+  animation: draw-svg 3s 4s ease-out forwards;
+  stroke-dashoffset: 172;
+  stroke-dasharray: 172;
+}
+
+.tail--router .svg__pencil-contour {
+  animation: draw-svg 3s 4s ease-out forwards;
+  stroke-dashoffset: 732;
+  stroke-dasharray: 732;
+}
+
+.tail--router .svg__leg-bottom {
+  animation: draw-svg 3s 4s ease-out forwards;
+  stroke-dashoffset: 680;
+  stroke-dasharray: 680;
+}
+
+.tail--router .svg__scriber {
+  animation: draw-svg 3s 4s ease-out forwards;
+  stroke-dashoffset: 38;
+  stroke-dasharray: 38;
+}
+
+.tail--router .svg__pencil-verticle {
+  animation: draw-svg 3s 4s ease-out forwards;
+  stroke-dashoffset: 88;
+  stroke-dasharray: 88;
+}
+
+.tail--router .svg__pencil-horizontal {
+  animation: draw-svg 3s 4s ease-out forwards;
+  stroke-dashoffset: 272;
+  stroke-dasharray: 272;
+}
+
+.tail--router .svg__screw {
+  animation: draw-svg 3s 4s ease-out forwards;
+  stroke-dashoffset: 88;
+  stroke-dasharray: 88;
+}
+
+.tail--router .svg__dash-first {
+   animation: draw-svg 3s 4s ease-out forwards;
+   stroke-dashoffset: 20;
+   stroke-dasharray: 20;
+}
+
+.tail--router .svg__dash {
+  animation: draw-svg-dash 3s 5s ease-out forwards;
+  opacity: 0;
+  stroke-dashoffset: 492;
+  stroke-dasharray: 42.7122;
 }
 
 .svg__dash {
-  animation: 3s 4s draw-dash forwards;
-  stroke-dashoffset: -234;
-  stroke-dasharray: 234, 234;
+  stroke-dasharray: 42.7122;
 }
 
-.svg__ruler-bottom {
-  animation: 4s 4s draw-ruler-bottom forwards;
-  stroke-dashoffset: -297;
-  stroke-dasharray: 297, 297;
+// svg skills tail
+
+.tail--router .svg__arm {
+  animation: 3s 4s draw-svg ease-out forwards;
+  stroke-dashoffset: 1541;
+  stroke-dasharray: 1541;
 }
 
-.svg__ruler-top {
-  animation: 4s 4s draw-ruler-top forwards;
-  stroke-dashoffset: -302;
-  stroke-dasharray: 302, 302;
+.tail--router .svg__arm-end {
+  animation: 0.3s 6.7s draw-svg ease-out forwards;
+  stroke-dashoffset: 25;
+  stroke-dasharray: 25;
 }
 
-.svg__ruler-subdivision {
-  animation: 4s 4s draw-ruler-subdivision forwards;
-  stroke-dashoffset: -21;
-  stroke-dasharray: 21, 21;
+// svg contact tail
+
+.tail--router .svg__airplane {
+  animation: 3s 4s draw-svg ease-out forwards;
+  stroke-dashoffset: 1594;
+  stroke-dasharray: 1594;
 }
 
-.svg__pencil-contour {
-  animation: 3s 4s draw-pencil-contours forwards;
-  stroke-dashoffset: -685;
-  stroke-dasharray: 685, 685;
+.tail--router .svg__airplane-middle {
+  animation: 3s 4s draw-svg ease-out forwards;
+  stroke-dashoffset: 348;
+  stroke-dasharray: 348;
 }
 
-.svg__elastic {
-  animation: 3s 4s draw-elastic forwards;
-  stroke-dashoffset: -185;
-  stroke-dasharray: 185, 185;
+.tail--router .svg__airplane-middle--short {
+  animation: 3s 4s draw-svg ease-out forwards;
+  stroke-dashoffset: 275;
+  stroke-dasharray: 275;
 }
 
-.svg__pencil-middle {
-  animation: 3s 4s draw-pencil-middle forwards;
-  stroke-dashoffset: -225;
-  stroke-dasharray: 225, 225;
+.tail--router .svg__airplane-connector {
+  animation: 3s 4s draw-svg ease-out forwards;
+  stroke-dashoffset: 196;
+  stroke-dasharray: 196;
 }
 
-.svg__pencil-connector {
-  animation: 2s 4s draw-pencil-connector forwards;
-  stroke-dashoffset: -52;
-  stroke-dasharray: 52, 52;
+// svg about me tail
+
+.tail--router .svg__hacker-contour {
+  animation: 3s 4s draw-svg ease-out forwards;
+  stroke-dashoffset: 1630;
+  stroke-dasharray: 1630;
+}
+.tail--router .svg__notebook {
+  animation: 3s 4s draw-svg ease-out forwards;
+  stroke-dashoffset: 632;
+  stroke-dasharray: 632;
+}
+
+.tail--router .svg__notebook-line {
+  animation: 3s 4s draw-svg ease-out forwards;
+  stroke-dashoffset: 90;
+  stroke-dasharray: 90;
+}
+
+.tail--router .svg__hood {
+  animation: 3s 4s draw-svg ease-out forwards;
+  stroke-dashoffset: 748;
+  stroke-dasharray: 748;
+}
+
+.tail--router .svg__face {
+  animation: 3s 4s draw-svg ease-out forwards;
+  stroke-dashoffset: 152;
+  stroke-dasharray: 152;
 }
