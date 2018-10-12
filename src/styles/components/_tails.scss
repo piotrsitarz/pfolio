@@ -29,15 +29,56 @@
 .tail-wrapper {
   @include center;
   height: 100%;
+  transition: background 0.4s ease-in-out, opacity 0.4s ease-in-out;
   width: 100%;
 }
 
+.tail-wrapper:hover {
+  opacity: 0.7;
+}
+
+.tail--coal .tail-wrapper:hover {
+  background: $bone;
+}
+
+.tail--bone .tail-wrapper:hover {
+  background: $coal;
+}
+
+.tail--sunshine .tail-wrapper:hover {
+  background: $steel-blue;
+}
+
+.tail--steel-blue .tail-wrapper:hover {
+  background: $sunshine;
+}
+
 .tail-wrapper__svg {
-  width: 90%;
-  height: 70%;
-  stroke-width: 4;
   fill: none;
+  height: 70%;
   padding-top: 20px;
+  stroke-width: 4;
+  width: 90%;
+}
+
+.tail-wrapper__svg svg {
+  transition: stroke 0.4s ease-in-out;
+}
+
+.tail--sunshine .tail-wrapper:hover > .tail-wrapper__svg svg {
+  stroke: $sunshine;
+}
+
+.tail--steel-blue .tail-wrapper:hover > .tail-wrapper__svg svg {
+  stroke: $steel-blue;
+}
+
+.tail--bone .tail-wrapper:hover > .tail-wrapper__svg svg {
+  stroke: $bone;
+}
+
+.tail--coal .tail-wrapper:hover > .tail-wrapper__svg svg {
+  stroke: $coal;
 }
 
 .tail--steel-blue svg {
@@ -61,10 +102,30 @@
   width: 100%;
 }
 
+.tail-wrapper__title p {
+  transition: color 0.4s ease-in-out;
+}
+
+.tail--sunshine .tail-wrapper:hover > .tail-wrapper__title p {
+  color: $sunshine;
+}
+
+.tail--coal .tail-wrapper:hover > .tail-wrapper__title p {
+  color: $coal;
+}
+
+.tail--bone .tail-wrapper:hover > .tail-wrapper__title p {
+  color: $bone;
+}
+
+.tail--steel-blue .tail-wrapper:hover > .tail-wrapper__title p {
+  color: $steel-blue;
+}
+
 .tail__title {
   font-size: 64px;
-  font-weight: bold;
   font-family: 'Redressed', cursive;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -91,9 +152,9 @@
 
 .sticky__paragraph {
   animation: 0.3s ease-out 4s 1 hideElementByOpacity forwards;
+  font-family: 'Righteous', cursive;
   font-size: 38px;
   font-weight: bold;
-  font-family: 'Righteous', cursive;
   font-weight: bold;
 }
 
