@@ -1,0 +1,27 @@
+.page-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+}
+
+.page-container--sunshine {
+  @include center;
+  background: $sunshine;
+  color: $steel-blue;
+}
+
+.page-link--back {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.page-link--back svg {
+  width: 30px;
+}
+
+.page-link--steel-blue {
+  fill: $steel-blue;
+}
