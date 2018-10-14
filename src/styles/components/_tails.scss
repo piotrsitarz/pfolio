@@ -7,11 +7,11 @@
 }
 
 .tail--coal {
-  background: $coal;
+  background: $black;
 }
 
 .tail--bone {
-  background: $bone;
+  background: $white;
 }
 
 .tail--sunshine {
@@ -38,11 +38,11 @@
 }
 
 .tail--coal .tail-wrapper:hover {
-  background: $bone;
+  background: $white;
 }
 
 .tail--bone .tail-wrapper:hover {
-  background: $coal;
+  background: $black;
 }
 
 .tail--sunshine .tail-wrapper:hover {
@@ -74,11 +74,11 @@
 }
 
 .tail--bone .tail-wrapper:hover > .tail-wrapper__svg svg {
-  stroke: $bone;
+  stroke: $white;
 }
 
 .tail--coal .tail-wrapper:hover > .tail-wrapper__svg svg {
-  stroke: $coal;
+  stroke: $black;
 }
 
 .tail--steel-blue svg {
@@ -86,11 +86,11 @@
 }
 
 .tail--bone svg {
-  stroke: $coal;
+  stroke: $black;
 }
 
 .tail--coal svg {
-  stroke: $bone;
+  stroke: $white;
 }
 
 .tail--sunshine svg {
@@ -111,11 +111,11 @@
 }
 
 .tail--coal .tail-wrapper:hover > .tail-wrapper__title p {
-  color: $coal;
+  color: $black;
 }
 
 .tail--bone .tail-wrapper:hover > .tail-wrapper__title p {
-  color: $bone;
+  color: $white;
 }
 
 .tail--steel-blue .tail-wrapper:hover > .tail-wrapper__title p {
@@ -130,11 +130,11 @@
 }
 
 .tail__title--coal {
-  color: $coal;
+  color: $black;
 }
 
 .tail__title--bone {
-  color: $bone;
+  color: $white;
 }
 
 .tail__title--sunshine {
@@ -159,11 +159,11 @@
 }
 
 .sticky__paragraph--coal {
-  color: $coal;
+  color: $black;
 }
 
 .sticky__paragraph--bone {
-  color: $bone;
+  color: $white;
 }
 
 .tail--router {
@@ -192,7 +192,7 @@
 }
 
 .tails-wrapper {
-  background: white;
+  background: $coal;
   height: 100vh;
   position: absolute;
   width: 50vw;

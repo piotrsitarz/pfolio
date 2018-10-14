@@ -12,6 +12,12 @@
   color: $steel-blue;
 }
 
+.page-container--bone {
+  @include center;
+  background: $white;
+  color: $black;
+}
+
 .page-link--back {
   position: absolute;
   left: 20px;
@@ -24,4 +30,8 @@
 
 .page-link--steel-blue {
   fill: $steel-blue;
+}
+
+.page-link--coal {
+  fill: $black;
 }

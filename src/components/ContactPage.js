@@ -4,7 +4,7 @@ import BackSvgIcon from './BackSvgIcon';
 
 const ContactPage = () => (
   <div className='page-container page-container--sunshine'>
-    <Link className='page-link--back page-link--steel-blue' to='/' title='back to menu'>
+    <Link className='page-link--back page-link--steel-blue' to='/' title='wróć do menu'>
       <BackSvgIcon />
     </Link>
     <div className='contact-container'>
