@@ -16,8 +16,8 @@ const ContactPage = () => (
         <img className='contact__image' src='./images/phone.svg' alt='phone number' title='numer telefonu' />
         <p className='contact__paragraph contact__paragraph--margin'>+48 535 428 942</p>
       </a>
-      <a className='contact__item' href='https://www.facebook.com/profile.php?id=100017226726327'>
-        <img className='contact__image' src='./images/facebook.svg' alt='facebook account' title='konto facebook'/>
+      <a className='contact__item' href='https://www.facebook.com/profile.php?id=100017226726327' target="_blank" title='konto facebook'>
+        <img className='contact__image' src='./images/facebook.svg' alt='facebook account'/>
         <p className='contact__paragraph contact__paragraph--margin'>facebook</p>
       </a>
     </div>
