@@ -14,7 +14,7 @@ const MainPageTailAbout = () => (
       </svg>
     </div>
     <div className="tail-wrapper__title">
-      <p className='tail__title tail__title--coal'>About Me</p>
+      <p className='tail__title tail__title--black'>About Me</p>
     </div>
   </div>
 );

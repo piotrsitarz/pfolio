@@ -11,7 +11,7 @@ const MainPageTailSkills = () => (
       </svg>
     </div>
     <div className="tail-wrapper__title">
-      <p className='tail__title tail__title--bone'>Skills</p>
+      <p className='tail__title tail__title--white'>Skills</p>
     </div>
   </div>
 );

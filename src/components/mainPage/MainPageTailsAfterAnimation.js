@@ -11,16 +11,16 @@ const TailsAfterAnimation = () => (
       <TailProjects />
     </Link>
     <div className='tail tail--sunshine'></div>
-    <Link className='tail tail--bone' to='/about'>
+    <Link className='tail tail--white' to='/about'>
       <TailAbout />
     </Link>
-    <div className='tail tail--coal'></div>
+    <div className='tail tail--black'></div>
     <div className='tail tail--sunshine'></div>
-    <div className='tail tail--bone'></div>
-    <div className='tail tail--coal'></div>
+    <div className='tail tail--white'></div>
+    <div className='tail tail--black'></div>
     <div className='tail tail--steel-blue'></div>
-    <div className='tail tail--bone'></div>
-    <Link className='tail tail--coal' to='/skills'>
+    <div className='tail tail--white'></div>
+    <Link className='tail tail--black' to='/skills'>
       <TailSkills />
     </Link>
     <div className='tail tail--steel-blue'></div>

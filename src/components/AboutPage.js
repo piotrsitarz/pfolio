@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import BackSvgIcon from './BackSvgIcon';
 
 const AboutPage = () => (
-  <div className='page-container page-container--bone'>
-    <Link className='page-link--back page-link--coal' to='/' title='wróć do menu'>
+  <div className='page-container page-container--white'>
+    <Link className='page-link--back page-link--black' to='/' title='wróć do menu'>
       <BackSvgIcon />
     </Link>
     <div className='about-container'>

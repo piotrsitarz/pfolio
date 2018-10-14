@@ -6,11 +6,11 @@
   width: 25vw;
 }
 
-.tail--coal {
+.tail--black {
   background: $black;
 }
 
-.tail--bone {
+.tail--white {
   background: $white;
 }
 
@@ -37,11 +37,11 @@
   opacity: 0.7;
 }
 
-.tail--coal .tail-wrapper:hover {
+.tail--black .tail-wrapper:hover {
   background: $white;
 }
 
-.tail--bone .tail-wrapper:hover {
+.tail--white .tail-wrapper:hover {
   background: $black;
 }
 
@@ -73,11 +73,11 @@
   stroke: $steel-blue;
 }
 
-.tail--bone .tail-wrapper:hover > .tail-wrapper__svg svg {
+.tail--white .tail-wrapper:hover > .tail-wrapper__svg svg {
   stroke: $white;
 }
 
-.tail--coal .tail-wrapper:hover > .tail-wrapper__svg svg {
+.tail--black .tail-wrapper:hover > .tail-wrapper__svg svg {
   stroke: $black;
 }
 
@@ -85,11 +85,11 @@
   stroke: $sunshine;
 }
 
-.tail--bone svg {
+.tail--white svg {
   stroke: $black;
 }
 
-.tail--coal svg {
+.tail--black svg {
   stroke: $white;
 }
 
@@ -110,11 +110,11 @@
   color: $sunshine;
 }
 
-.tail--coal .tail-wrapper:hover > .tail-wrapper__title p {
+.tail--black .tail-wrapper:hover > .tail-wrapper__title p {
   color: $black;
 }
 
-.tail--bone .tail-wrapper:hover > .tail-wrapper__title p {
+.tail--white .tail-wrapper:hover > .tail-wrapper__title p {
   color: $white;
 }
 
@@ -129,11 +129,11 @@
   text-align: center;
 }
 
-.tail__title--coal {
+.tail__title--black {
   color: $black;
 }
 
-.tail__title--bone {
+.tail__title--white {
   color: $white;
 }
 
@@ -158,11 +158,11 @@
   font-weight: bold;
 }
 
-.sticky__paragraph--coal {
+.sticky__paragraph--black {
   color: $black;
 }
 
-.sticky__paragraph--bone {
+.sticky__paragraph--white {
   color: $white;
 }
 
@@ -232,14 +232,14 @@
   top: 0;
 }
 
-.tail--bone.tail--router {
-  animation: 1s ease-out 3s 1 slideTailBoneRouter forwards;
+.tail--white.tail--router {
+  animation: 1s ease-out 3s 1 slideTailWhiteRouter forwards;
   left: 50vw;
   top: -33.3333vh;
 }
 
-.tail--coal.tail--router {
-  animation: 1s ease-out 3s 1 slideTailCoalRouter forwards;
+.tail--black.tail--router {
+  animation: 1s ease-out 3s 1 slideTailBlackRouter forwards;
   left: 25vw;
   top: 100vh;
 }

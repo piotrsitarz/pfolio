@@ -15,12 +15,12 @@ const MainPageAnimationRouterTails = (props) => (
       <TailProjects />
     </Link>
     <Link
-      className='tail tail--bone tail--router' to='/about'
+      className='tail tail--white tail--router' to='/about'
       onClick={() => {props.dispatch(changeTailsRoutingStore())}}>
       <TailAbout />
     </Link>
     <Link
-      className='tail tail--coal tail--router' to='/skills'
+      className='tail tail--black tail--router' to='/skills'
       onClick={() => {props.dispatch(changeTailsRoutingStore())}}>
       <TailSkills />
      </Link>
