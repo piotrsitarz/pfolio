@@ -1,0 +1,44 @@
+.skills-container  {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.skills__column {
+  @include center;
+  align-items: end;
+  width: 50%;
+}
+
+.skills__column--second {
+  align-items: start;
+}
+
+.skills__item {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+}
+
+.skills__paragraph {
+  font-family: 'Roboto', cursive;
+  font-size: $font-size-large;
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding-top: 130px;
+  text-align: center;
+  width: 100%;
+}
+
+.item__level {
+  align-items: center;
+  display: flex;
+}
+
+.item__level svg {
+  width: 30px;
+}
+
+.item__icon svg {
+  height: 50px;
+}

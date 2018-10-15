@@ -1,6 +1,6 @@
 .page-container {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
   position: relative;
   width: 100vw;
@@ -16,6 +16,13 @@
   @include center;
   background: $white;
   color: $black;
+}
+
+.page-container--black {
+  @include center;
+  background: $black;
+  color: $white;
+  height: auto;
 }
 
 .page-link--back {
@@ -34,4 +41,8 @@
 
 .page-link--black {
   fill: $black;
+}
+
+.page-link--white {
+  fill: $white;
 }
