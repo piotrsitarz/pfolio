@@ -19,7 +19,7 @@ import GitIcon from './skillsIcons/GitIcon';
 import GulpIcon from './skillsIcons/GulpIcon';
 import WebpackIcon from './skillsIcons/WebpackIcon';
 import BasicSkillLevel from './BasicSkillLevel';
-import RegularSkillLevel from './RegularSkillLevel';
+import RegularSkillLevel from './a';
 
 const SkillsPage = () => (
   <div className='page-container page-container--black'>
