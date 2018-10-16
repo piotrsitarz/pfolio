@@ -73,7 +73,7 @@ const SkillsPage = () => (
         </div>
       </div>
       <div className='skills__column'>
-        <p className='skills__paragraph'>Backend</p>
+        <p className='skills__paragraph skills__paragraph--end'>Backend</p>
         <div className='skills__item'>
           <RubyIcon />
           <BasicSkillLevel />
@@ -92,7 +92,7 @@ const SkillsPage = () => (
         </div>
       </div>
       <div className='skills__column skills__column--second'>
-        <p className='skills__paragraph'>Tools</p>
+        <p className='skills__paragraph skills__paragraph--start'>Tools</p>
         <div className='skills__item'>
           <GitIcon />
           <BasicSkillLevel />
@@ -105,6 +105,9 @@ const SkillsPage = () => (
           <WebpackIcon />
           <BasicSkillLevel />
         </div>
+      </div>
+      <div className='skills__column skills__column--certificate'>
+        <img className='skills__image' src='images/certyfikat.png' alt='certyfikat internetowych rewolucji'></img>
       </div>
     </div>
   </div>

@@ -33,3 +33,38 @@
   text-decoration: underline;
   font-weight: bold;
 }
+
+@media (max-width: 1020px) {
+
+  .about-container {
+    @include center;
+    padding: 40px 0;
+    width: 100%;
+  }
+
+  .about__paragraph {
+    text-align: center;
+  }
+
+  .about__item {
+    width:100%;
+  }
+
+  .about__item--image, .about__item--description {
+    margin: 0;
+    align-items: center;
+  }
+
+  .about__item--description {
+    padding-top: 40px;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .about__paragraph {
+    width: 90%;
+  }
+
+}
