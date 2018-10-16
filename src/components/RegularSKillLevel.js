@@ -2,7 +2,7 @@ import React from 'react';
 import StarIconEmpty from './skillsIcons/StarIconEmpty';
 import StarIconFilled from './skillsIcons/StarIconFilled';
 
-const RegularSKillLevel = () => (
+const RegularSkillLevel = () => (
   <div className='item__level'>
     <StarIconFilled />
     <StarIconFilled />
@@ -11,4 +11,4 @@ const RegularSKillLevel = () => (
   </div>
 );
 
-export default RegularSKillLevel;
+export default RegularSkillLevel;

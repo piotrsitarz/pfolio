@@ -18,8 +18,8 @@ import RubyIcon from './skillsIcons/RubyIcon';
 import GitIcon from './skillsIcons/GitIcon';
 import GulpIcon from './skillsIcons/GulpIcon';
 import WebpackIcon from './skillsIcons/WebpackIcon';
-import BasicSKillLevel from './BasicSKillLevel';
-import RegularSKillLevel from './RegularSKillLevel';
+import BasicSkillLevel from './BasicSkillLevel';
+import RegularSkillLevel from './RegularSkillLevel';
 
 const SkillsPage = () => (
   <div className='page-container page-container--black'>
@@ -31,79 +31,79 @@ const SkillsPage = () => (
       <div className='skills__column'>
         <div className='skills__item'>
           <HtmlIcon />
-          <RegularSKillLevel />
+          <RegularSkillLevel />
         </div>
         <div className='skills__item'>
           <CssIcon />
-          <RegularSKillLevel />
+          <RegularSkillLevel />
         </div>
         <div className='skills__item'>
           <SassIcon />
-          <BasicSKillLevel />
+          <BasicSkillLevel />
         </div>
         <div className='skills__item'>
           <BootstrapIcon />
-          <BasicSKillLevel />
+          <BasicSkillLevel />
         </div>
         <div className='skills__item'>
           <JavaScriptIcon />
-          <RegularSKillLevel />
+          <RegularSkillLevel />
         </div>
       </div>
       <div className='skills__column skills__column--second'>
         <div className='skills__item'>
           <AngularJsIcon />
-          <RegularSKillLevel />
+          <RegularSkillLevel />
         </div>
         <div className='skills__item'>
           <ReactIcon />
-          <BasicSKillLevel />
+          <BasicSkillLevel />
         </div>
         <div className='skills__item'>
           <ReduxIcon />
-          <BasicSKillLevel />
+          <BasicSkillLevel />
         </div>
         <div className='skills__item'>
           <PhotoshopIcon />
-          <BasicSKillLevel />
+          <BasicSkillLevel />
         </div>
         <div className='skills__item'>
           <IllustratorIcon />
-          <BasicSKillLevel />
+          <BasicSkillLevel />
         </div>
       </div>
       <div className='skills__column'>
         <p className='skills__paragraph'>Backend</p>
         <div className='skills__item'>
           <RubyIcon />
-          <BasicSKillLevel />
+          <BasicSkillLevel />
         </div>
         <div className='skills__item'>
           <PostgreSqlIcon />
-          <BasicSKillLevel />
+          <BasicSkillLevel />
         </div>
         <div className='skills__item'>
           <NodeJsIcon />
-          <BasicSKillLevel />
+          <BasicSkillLevel />
         </div>
         <div className='skills__item'>
           <MongoDbIcon />
-          <BasicSKillLevel />
+          <BasicSkillLevel />
         </div>
       </div>
       <div className='skills__column skills__column--second'>
         <p className='skills__paragraph'>Tools</p>
         <div className='skills__item'>
           <GitIcon />
-          <BasicSKillLevel />
+          <BasicSkillLevel />
         </div>
         <div className='skills__item'>
           <GulpIcon />
-          <BasicSKillLevel />
+          <BasicSkillLevel />
         </div>
         <div className='skills__item'>
           <WebpackIcon />
-          <BasicSKillLevel />
+          <BasicSkillLevel />
         </div>
       </div>
     </div>
