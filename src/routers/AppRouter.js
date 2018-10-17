@@ -7,8 +7,6 @@ import NotFoundPage from '../components/NotFoundPage';
 import ProjectsPage from '../components/ProjectsPage';
 import SkillsPage from '../components/SkillsPage';
 
-
-
 const AppRouter = () => (
   <BrowserRouter>
     <div>
