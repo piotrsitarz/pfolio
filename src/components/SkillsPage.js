@@ -1,115 +1,30 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import BackSvgIcon from './BackSvgIcon';
-import HtmlIcon from './skillsIcons/HtmlIcon';
-import CssIcon from './skillsIcons/CssIcon';
-import SassIcon from './skillsIcons/SassIcon';
-import JavaScriptIcon from './skillsIcons/JavaScriptIcon';
-import AngularJsIcon from './skillsIcons/AngularJsIcon';
-import ReactIcon from './skillsIcons/ReactIcon';
-import ReduxIcon from './skillsIcons/ReduxIcon';
-import PhotoshopIcon from './skillsIcons/PhotoshopIcon';
-import IllustratorIcon from './skillsIcons/IllustratorIcon';
-import BootstrapIcon from './skillsIcons/BootstrapIcon';
-import PostgreSqlIcon from './skillsIcons/PostgreSqlIcon';
-import MongoDbIcon from './skillsIcons/MongoDbIcon';
-import NodeJsIcon from './skillsIcons/NodeJsIcon';
-import RubyIcon from './skillsIcons/RubyIcon';
-import GitIcon from './skillsIcons/GitIcon';
-import GulpIcon from './skillsIcons/GulpIcon';
-import WebpackIcon from './skillsIcons/WebpackIcon';
-import BasicSkillLevel from './BasicSkillLevel';
-import RegularSkillLevel from './RegularSkillLevel';
+import FrontEndSkills from './FrontEndSkills';
+import BackEndSkills from './BackEndSkills';
+import ToolsSkills from './ToolsSkills';
+import Certificate from './Certificate';
+import {CSSTransition} from 'react-transition-group';
 
 const SkillsPage = () => (
   <div className='page-container page-container--black'>
     <Link className='page-link--back page-link--white' to='/' title='wróć do menu'>
       <BackSvgIcon />
     </Link>
-    <div className='skills-container'>
-      <p className='skills__paragraph skills__paragraph--front'>Frontend</p>
-      <div className='skills__column'>
-        <div className='skills__item'>
-          <HtmlIcon />
-          <RegularSkillLevel />
-        </div>
-        <div className='skills__item'>
-          <CssIcon />
-          <RegularSkillLevel />
-        </div>
-        <div className='skills__item'>
-          <SassIcon />
-          <BasicSkillLevel />
-        </div>
-        <div className='skills__item'>
-          <BootstrapIcon />
-          <BasicSkillLevel />
-        </div>
-        <div className='skills__item'>
-          <JavaScriptIcon />
-          <RegularSkillLevel />
-        </div>
+    <CSSTransition
+      in={true}
+      appear={true}
+      timeout={300}
+      classNames='fade'
+    >
+      <div className='skills-container'>
+        <FrontEndSkills />
+        <BackEndSkills />
+        <ToolsSkills />
+        <Certificate />
       </div>
-      <div className='skills__column skills__column--second'>
-        <div className='skills__item'>
-          <AngularJsIcon />
-          <RegularSkillLevel />
-        </div>
-        <div className='skills__item'>
-          <ReactIcon />
-          <BasicSkillLevel />
-        </div>
-        <div className='skills__item'>
-          <ReduxIcon />
-          <BasicSkillLevel />
-        </div>
-        <div className='skills__item'>
-          <PhotoshopIcon />
-          <BasicSkillLevel />
-        </div>
-        <div className='skills__item'>
-          <IllustratorIcon />
-          <BasicSkillLevel />
-        </div>
-      </div>
-      <div className='skills__column'>
-        <p className='skills__paragraph skills__paragraph--end'>Backend</p>
-        <div className='skills__item'>
-          <RubyIcon />
-          <BasicSkillLevel />
-        </div>
-        <div className='skills__item'>
-          <PostgreSqlIcon />
-          <BasicSkillLevel />
-        </div>
-        <div className='skills__item'>
-          <NodeJsIcon />
-          <BasicSkillLevel />
-        </div>
-        <div className='skills__item'>
-          <MongoDbIcon />
-          <BasicSkillLevel />
-        </div>
-      </div>
-      <div className='skills__column skills__column--second'>
-        <p className='skills__paragraph skills__paragraph--start'>Tools</p>
-        <div className='skills__item'>
-          <GitIcon />
-          <BasicSkillLevel />
-        </div>
-        <div className='skills__item'>
-          <GulpIcon />
-          <BasicSkillLevel />
-        </div>
-        <div className='skills__item'>
-          <WebpackIcon />
-          <BasicSkillLevel />
-        </div>
-      </div>
-      <div className='skills__column skills__column--certificate'>
-        <img className='skills__image' src='images/certyfikat.png' alt='certyfikat internetowych rewolucji'></img>
-      </div>
-    </div>
+    </CSSTransition>
   </div>
 );
 

@@ -26,6 +26,12 @@
   padding-bottom: 130px;
 }
 
+.page-container--steel-blue {
+  @include center;
+  background: $steel-blue;
+  color: $sunshine;
+}
+
 .page-link--back {
   position: absolute;
   left: 20px;
@@ -46,4 +52,8 @@
 
 .page-link--white {
   fill: $white;
+}
+
+.page-link--sunshine {
+  fill: $sunshine;
 }
