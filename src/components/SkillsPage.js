@@ -4,7 +4,7 @@ import BackSvgIcon from './BackSvgIcon';
 import FrontEndSkills from './FrontEndSkills';
 import BackEndSkills from './BackEndSkills';
 import ToolsSkills from './ToolsSkills';
-import Certificate from './Certificate';
+import Certificate from './a';
 import {CSSTransition} from 'react-transition-group';
 
 const SkillsPage = () => (
