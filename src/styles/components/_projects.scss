@@ -1,11 +1,25 @@
-.projects-container {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100vw;
-  justify-content: space-around;
+.slider {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
-.projects-container img {
-  width: 600px;
-  height: 300px;
+.slider-list {
+    min-height: 400px;
+    height: 400px;
+    width: 800px;
+}
+
+.slider-frame {
+  min-height: 400px;
+  height: 400px;
+  width: 800px;
+  border:2px solid $sunshine;
+}
+
+.slider-slide > img {
+  height: 400px;
+  width: 800px;
+}
+
+.slider-control-bottomcenter {
+  bottom: -60px!important;
 }

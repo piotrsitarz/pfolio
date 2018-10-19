@@ -23,6 +23,7 @@
     "extract-text-webpack-plugin": "^3.0.2",
     "node-sass": "4.9.3",
     "normalize.css": "7.0.0",
+    "nuka-carousel": "^4.4.1",
     "react": "15.6.1",
     "react-addons-shallow-compare": "15.6.0",
     "react-dom": "15.6.1",

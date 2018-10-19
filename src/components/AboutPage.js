@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import BackSvgIcon from './BackSvgIcon';
 import {CSSTransition} from 'react-transition-group';
+import BackSvgIcon from './BackSvgIcon';
 
 const AboutPage = () => (
   <div className='page-container page-container--white'>

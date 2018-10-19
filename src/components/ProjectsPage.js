@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import BackSvgIcon from './BackSvgIcon';
 import {CSSTransition} from 'react-transition-group';
+import BackSvgIcon from './BackSvgIcon';
+import ProjectsGallery from './ProjectsGallery';
 
 const ProjectsPage = () => (
   <div className='page-container page-container--steel-blue'>
@@ -11,12 +12,10 @@ const ProjectsPage = () => (
     <CSSTransition
       in={true}
       appear={true}
-      timeout={300}
+      timeout={400}
       classNames='fade'
     >
-      <div className='projects-container'>
-          <img src='./images/agency.png' alt=''></img>
-      </div>
+      <ProjectsGallery />
     </CSSTransition>
   </div>
 );
