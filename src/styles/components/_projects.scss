@@ -3,16 +3,16 @@
 }
 
 .slider-list {
-    min-height: 400px;
-    height: 400px;
-    width: 800px;
+  height: 400px;
+  min-height: 400px;
+  width: 800px;
 }
 
 .slider-frame {
-  min-height: 400px;
+  border: 2px solid $sunshine;
   height: 400px;
+  min-height: 400px;
   width: 800px;
-  border:2px solid $sunshine;
 }
 
 .slider-slide > img {
@@ -22,4 +22,117 @@
 
 .slider-control-bottomcenter {
   bottom: -60px!important;
+}
+
+.projects__buttons  {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.projects__buttons button {
+  background: $sunshine;
+  color: black;
+  margin: 23px 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.projects__buttons button:hover {
+  background: darken($sunshine, 20%);
+  color: lighten(black, 20%);
+}
+
+.projects__description {
+  height: 200px;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+  width: 600px;
+}
+
+.projects__description p {
+  font-family: 'Roboto', cursive;
+}
+
+.description__title {
+  font-weight: bold;
+  font-size: $font-size-normal;
+  letter-spacing: 3px;
+}
+
+.description__technologies {
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+
+@media (max-width: 850px) {
+
+  .slider {
+    width: 400px!important;
+  }
+
+  .slider-list {
+    height: 200px;
+    min-height: 200px;
+    width: 400px;
+  }
+
+  .slider-frame {
+    border: 2px solid $sunshine;
+    height: 200px;
+    min-height: 200px;
+    width: 400px;
+  }
+
+  .slider-slide > img {
+    height: 200px;
+    width: 400px;
+  }
+
+  .slider-control-bottomcenter {
+    text-align: center;
+    width: 100%;
+  }
+
+  .projects__description {
+    width: 300px;
+  }
+
+}
+
+@media (max-width: 420px) {
+
+  .slider {
+    width: 300px!important;
+  }
+
+  .slider-list {
+    height: 150px;
+    min-height: 150px;
+    width: 300px;
+  }
+
+  .slider-frame {
+    border: 2px solid $sunshine;
+    height: 150px;
+    min-height: 150px;
+    width: 300px;
+  }
+
+  .slider-slide > img {
+    height: 150px;
+    width: 300px;
+  }
+
+  .slider-control-bottomcenter {
+    text-align: center;
+    width: 100%;
+  }
+
+  .projects__description {
+    width: 250px;
+  }
+
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 const AngularJsIcon = () => (
   <div>
-    <a className='item__icon' href='https://angularjs.org/' target="_blank" title='AngularjJS'>
+    <a className='item__icon' href='https://angularjs.org/' target="_blank" title='AngularJS'>
       <svg viewBox='0 0 128 128'>
         <path fill='#B3B3B3' d='M63.81 1.026l-59.257 20.854 9.363 77.637 49.957 27.457 50.214-27.828 9.36-77.635z'></path>
         <path fill='#A6120D' d='M117.536 25.998l-53.864-18.369v112.785l45.141-24.983z'></path>
