@@ -19,11 +19,10 @@ const AboutPage = () => (
           <img className='about__image' src='./images/face.jpg' alt='author face picture' />
         </div>
         <div className='about__item about__item--description'>
-          <p className='about__paragraph'>Witaj, nazywam się <span className='about__paragraph--underline'>Piotrek</span>. Programowaniem zacząłem interesować się dwa lata temu, a moje pierwsze repozytoria na platformie
-          <a className='about__paragraph--underline' href='https://github.com/piotrsitarz' target="_blank" title='mój profil github'> github</a> stworzyłem 05.04.2017. Posiadam 11 miesięcy komercyjnego
-          doświadczenia jako programista w firmie TECH Sterowniki. W swojej przyszłej pracy chciałbym przede wszystkim doskonalić <span className='about__paragraph--underline'>JavaScript</span>, React by w końcu przejść do React Native.
-          Nie chcę mieć styczności z PHP, jQuery oraz WordPressem. Pragnę rozwijać się w firmie, która stawia na <span className='about__paragraph--underline'>rozwój</span> pracownika i używa najnowszych technologii.
-          Jeżeli dobrze trafiłem, <Link className='about__paragraph--underline' to='/contact' title='kontakt'>skontaktuj</Link> się ze mną.
+          <p className='about__paragraph'>Hello, my name is <span className='about__paragraph--underline'>Piotrek</span>.  I started to be interested in programming two years ago, and I created my first repositories on the
+          <a className='about__paragraph--underline' href='https://github.com/piotrsitarz' target="_blank" title='mój profil github'> github</a> platform on 05/04/2017. I have 11 months of commercial experience as a programmer
+          at TECH Sterowniki where I used technologies such as Ruby, PostgreSQL, AngularJS. I want to develop in a company that focuses on the <span className='about__paragraph--underline'>development</span> of an employee and uses the latest technology.
+          If I found the right place,  <Link className='about__paragraph--underline' to='/contact' title='kontakt'>contact</Link> me.
           </p>
         </div>
       </div>

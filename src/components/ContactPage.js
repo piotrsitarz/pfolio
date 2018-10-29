@@ -16,14 +16,14 @@ const ContactPage = () => (
     >
       <div className='contact-container'>
         <a className='contact__item' href='mailto:piotrsitarz@onet.eu'>
-          <img className='contact__image' src='./images/email.svg' alt='email adress' title='adres email' />
+          <img className='contact__image' src='./images/email.svg' alt='email adress' title='email adress' />
           <p className='contact__paragraph'>piotrsitarz@onet.eu</p>
         </a>
         <a className='contact__item' href='tel:+48535428942'>
-          <img className='contact__image' src='./images/phone.svg' alt='phone number' title='numer telefonu' />
+          <img className='contact__image' src='./images/phone.svg' alt='phone number' title='phone number' />
           <p className='contact__paragraph contact__paragraph--margin'>+48 535 428 942</p>
         </a>
-        <a className='contact__item' href='https://www.facebook.com/profile.php?id=100017226726327' target="_blank" title='konto facebook'>
+        <a className='contact__item' href='https://www.facebook.com/profile.php?id=100017226726327' target="_blank" title='facebook account'>
           <img className='contact__image' src='./images/facebook.svg' alt='facebook account'/>
           <p className='contact__paragraph contact__paragraph--margin'>facebook</p>
         </a>
