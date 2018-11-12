@@ -3,7 +3,7 @@ import PostgreSqlIcon from './skillsIcons/PostgreSqlIcon';
 import MongoDbIcon from './skillsIcons/MongoDbIcon';
 import NodeJsIcon from './skillsIcons/NodeJsIcon';
 import RubyIcon from './skillsIcons/RubyIcon';
-import FirebaseIcon from './skillsIcons/FirebaseIcon';
+import FirebaseIcon from './skillsIcons/a';
 import BasicSkillLevel from './BasicSkillLevel';
 import RegularSkillLevel from './RegularSkillLevel';
 
