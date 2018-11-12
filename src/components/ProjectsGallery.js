@@ -38,7 +38,7 @@ class ProjectsGallery extends React.Component {
         }
         </Carousel>
         <div className='projects__description'>
-          <p className='description__title'>{this.props.projects[this.state.slideIndex].type}</p>
+          <p className='description__title'>{this.props.projects[this.state.slideIndex].title}</p>
           <p className='description__technologies'>{this.props.projects[this.state.slideIndex].technologies}</p>
         </div>
       </div>

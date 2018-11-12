@@ -45,11 +45,11 @@ const FrontEndSkills = () => (
       </div>
       <div className='skills__item'>
         <ReactIcon />
-        <BasicSkillLevel />
+        <RegularSkillLevel />
       </div>
       <div className='skills__item'>
         <ReduxIcon />
-        <BasicSkillLevel />
+        <RegularSkillLevel />
       </div>
       <div className='skills__item'>
         <PhotoshopIcon />
