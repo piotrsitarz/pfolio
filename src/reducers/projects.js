@@ -72,18 +72,10 @@ const projectsReducerDefaultState = [
   technologies: 'HTML5, CSS3, JavaScript, React, Redux, Node.js, Firebase, Babel, webpack',
   title: 'Shopping App'
 },{
-  imgUrl: './images/gallery.png',
-  onlineUrl:'https://piotr-sitarz-photo-gallery.herokuapp.com/',
-  githubUrl:'https://github.com/piotrsitarz/photo-gallery',
-  indeks: 10,
-  description: 'photo-gallery app picture',
-  technologies: 'HTML5, CSS3, JavaScript, React, Node.js, Babel, webpack',
-  title: 'Gallery App'
-},{
   imgUrl: './images/portfolio.png',
   onlineUrl:'https://piotr-sitarz-portfolio.herokuapp.com/',
   githubUrl:'https://github.com/piotrsitarz/pfolio',
-  indeks: 11,
+  indeks: 10,
   description: 'website portfolio picture',
   technologies: 'HTML5, CSS3, JavaScript, React, Redux, Node.js, Babel, webpack',
   title: 'Portoflio'

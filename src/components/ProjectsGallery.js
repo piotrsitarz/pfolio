@@ -31,8 +31,8 @@ class ProjectsGallery extends React.Component {
         >
         {
           (
-            this.props.projects.map((project) => {
-              return <img src={project.imgUrl} alt={project.description}/>;
+            this.props.projects.map((project, index) => {
+              return <img key={index} src={project.imgUrl} alt={project.description}/>;
             })
           )
         }
